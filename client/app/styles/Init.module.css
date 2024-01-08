@@ -1,0 +1,16 @@
+
+.containerInit {
+    width: 60%;
+    background: linear-gradient(to right, #312F30, #141414);
+}
+
+.buttonDownloadCv {
+    color: #EBEAE6;
+    border: none;
+    border-radius: 55px;
+    padding: 0.9rem;
+    background: linear-gradient(to right, #46849D, #7AB5B4, #C5C2BD, #E8AA92, #FB6B5F);
+
+}
+
+

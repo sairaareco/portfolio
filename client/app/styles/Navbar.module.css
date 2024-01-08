@@ -1,0 +1,17 @@
+
+.containerNav {
+    background-color: #222222;
+    background: linear-gradient(to right, #312F30, #141414);
+    width: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.itemNav {
+    list-style-type: none;
+    color: #E9E9E8;
+    
+}

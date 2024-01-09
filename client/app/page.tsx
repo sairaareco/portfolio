@@ -13,7 +13,7 @@ export default function Home() {
         <Model />
         <Init />
       </div>
-      {/* <About /> */}
+      <About />
       
     </main>
   )

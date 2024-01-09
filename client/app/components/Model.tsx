@@ -4,9 +4,9 @@ const Model = () => {
 
     return(
         <main className={styles.container}>
-            <div >
+            <div>
                 <h1 className={styles.name}> Saira </h1>
-                <h1> Areco </h1>
+                <h1 className={styles.lastname}> Areco </h1>
             </div>
         </main>
     )

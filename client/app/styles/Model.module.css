@@ -9,8 +9,11 @@
 }
 
 .name {
+    color: #E9E9E8;
     text-align: center;
 }
 
-
+.lastname {
+    color: #E9E9E8;
+}
 /* backgraound attachhemtne: para dejar fixed un fondo de pantalla  */

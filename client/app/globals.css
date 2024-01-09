@@ -6,8 +6,6 @@ body {
   align-items: center;
   justify-content: center;
   background: #313131;
-
-  /* Pseudoelemento para las líneas diagonales */
   position: relative;
 }
 
@@ -33,6 +31,8 @@ body::before {
     
     background-repeat: no-repeat;
 }
+
+
 
 
 

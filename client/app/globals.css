@@ -1,3 +1,104 @@
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #313131;
+
+  /* Pseudoelemento para las líneas diagonales */
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    /* linear-gradient(to top left, transparent 0%, transparent 1%, #FC7964 1%, #FC7964 2%, #FC7964 3%, transparent 3%, transparent 100%) 0 0 / 100% 100%, */
+    linear-gradient(to bottom right, transparent 0%, transparent 5%, #FA9C7D 5%, #F2947A 6%, #F2947A 7%, transparent 7%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 9%, #FA9C7D 9%, #F2947A 10%, #F2947A 11%, transparent 11%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 17%, #F7F8F6 17%, #F7F8F6 18%, #F7F8F6 19%, transparent 19%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 21%, #F7F8F6 21%, #F7F8F6 22%, #F7F8F6 23%, transparent 23%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 29%, #7B96A3 29%, #6DA4B3 30%, #60B0B4 31%, transparent 31%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 33%, #66AAB2 33%, #9FBAC6 34%, #F7F8F6 35%, transparent 35%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to bottom right, transparent 0%, transparent 41%, #D4DFE0 41%, #F7F8F6 42%, #F4F5F0 43%, transparent 43%, transparent 100%) 0 0 / 100% 100%,
+    linear-gradient(to top left, transparent 0%, transparent 49%, #FA9C7D 49%, #F2947A 50%, transparent 50%, transparent 100%) 0 0 / 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -105,3 +206,5 @@ a {
     color-scheme: dark;
   }
 }
+
+ */

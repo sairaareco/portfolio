@@ -1,5 +1,6 @@
 
 .containerNav {
+    top: 0;
     background-color: #222222;
     background: linear-gradient(to right, #312F30, #141414);
     width: 100%;
@@ -13,5 +14,4 @@
 .itemNav {
     list-style-type: none;
     color: #E9E9E8;
-    
 }

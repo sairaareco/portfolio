@@ -3,9 +3,9 @@ import styles from "../styles/model.module.css";
 const Model = () => {
 
     return(
-        <main>
-            <div className={styles.container}>
-                <h1> Saira </h1>
+        <main className={styles.container}>
+            <div >
+                <h1 className={styles.name}> Saira </h1>
                 <h1> Areco </h1>
             </div>
         </main>

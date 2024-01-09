@@ -9,9 +9,12 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <Model />
-      <Init />
-      <About />
+      <div className={styles.containerComponents}>
+        <Model />
+        <Init />
+      </div>
+      {/* <About /> */}
+      
     </main>
   )
 }

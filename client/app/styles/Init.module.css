@@ -1,6 +1,6 @@
 
 .containerInit {
-    height: 139%;
+    height: 90%;
     background: linear-gradient(to right, #312F30, #141414);
 }
 
@@ -11,5 +11,21 @@
     padding: 0.9rem;
     background: linear-gradient(to right, #46849D, #7AB5B4, #C5C2BD, #E8AA92, #FB6B5F);
 }
+
+.fullStack {
+    color: #F2F1ED;
+    padding-top: 6rem;
+    font-size: 2rem;
+}
+
+.developer {
+    color: #F2F1ED;
+    font-size: 4rem;
+}
+
+.description {
+    color: #F2F1ED;
+}
+
 
 

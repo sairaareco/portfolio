@@ -1,6 +1,14 @@
 /*
+backgraound attachhemtne: para dejar fixed un fondo de pantalla  
+*/
 
-.container {
+.containerBubble {
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    margin-top: 5rem;
     width: 170px;
     height: 170px;
     border-radius: 100%;
@@ -10,14 +18,14 @@
 .name {
     color: #E9E9E8;
     text-align: center;
+    margin: 2.6rem 0rem 0rem 0rem;
 }
 
 .lastname {
     color: #E9E9E8;
+    text-align: center;
+    margin: 0;
 }
-
-backgraound attachhemtne: para dejar fixed un fondo de pantalla  
-*/
 
 .containerGrid {
     display: grid;
@@ -38,6 +46,11 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     border-radius: 55px;
     padding: 0.9rem;
     background: linear-gradient(to right, #46849D, #7AB5B4, #C5C2BD, #E8AA92, #FB6B5F);
+    transition: background 0.3s;
+}
+
+.buttonDownloadCv:hover {
+    background: linear-gradient(to right, #FB6B5F, #E8AA92, #C5C2BD, #7AB5B4, #46849D);
 }
 
 .fullStack {

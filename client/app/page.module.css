@@ -1,13 +1,4 @@
 
-.main {
-  z-index: 6;
-}
-
-.containerComponents {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  height: 80%;
-}
 
 /*
 .main {

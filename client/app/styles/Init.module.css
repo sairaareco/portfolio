@@ -95,37 +95,68 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 .boxes {
     display: flex;
     justify-content: space-around;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     background-color: #EEEDE8;
 }
 
 .boxUno {
+    display: flex;
+    align-items: center;
+    text-align: center;
     margin: 1.3rem;
     width: 140px;
     height: 140px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #E1DFDB, #B8B1AB);
+    color: #313131;
 }
 
 .boxDos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1.3rem;
     width: 140px;
     height: 140px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #EEB894, #F2584C);
+    color: #E9E9E8;
+    color: #313131;
 }
 .boxTres {
+    display: flex;
+    align-items: center;
+    text-align: center;
     margin: 1.3rem;
     width: 140px;
     height: 140px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #6FA6C1, #326586);
+    color: #E9E9E8;
+    color: #313131;
 }
 
 .boxCuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1.3rem;
     width: 140px;
     height: 140px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #E5927C, #F66153);
+    color: #313131;
+}
+
+.boxCinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem;
+    width: 140px;
+    height: 140px;
+    border-radius: 12%;
+    background: linear-gradient(to bottom, #E1DFDB, #B8B1AB);
+    color: #E9E9E8;
+    color: #313131;
 }

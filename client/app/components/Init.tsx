@@ -19,10 +19,11 @@ const Init = () => {
                 </div>
             </div>
             <div className={styles.boxes}>
-                    <div className={styles.boxUno}>  </div>
-                    <div className={styles.boxDos}>  </div>
-                    <div className={styles.boxTres}>  </div>
-                    <div className={styles.boxCuatro}>  </div>
+                    <div className={styles.boxUno}> Aprendizaje continuo </div>
+                    <div className={styles.boxDos}> Trabajo en equipo </div>
+                    <div className={styles.boxTres}> Resolución de problemas </div>
+                    <div className={styles.boxCuatro}> Adaptabilidad </div>
+                    <div className={styles.boxCinco}> Resiliencia </div>
                 </div>
         </main>
     )

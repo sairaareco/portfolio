@@ -15,7 +15,7 @@ const Init = () => {
                     <h3 className={styles.fullStack}> Full Stack </h3>
                     <h1 className={styles.developer}> Developer </h1>
                     <button className={styles.buttonDownloadCv}> Descarga mi CV </button>
-                    <p className={styles.description}> Desarrolladora Full Stack altamente motivada y dedicada a construir experiencias digitales notables. Lista para enfrentar nuevos desafíos y contribuir al mundo del desarrollo. </p>
+                    <p className={styles.description}> Desarrolladora Full Stack <span className={styles.descriptionColour}> altamente motivada </span> y dedicada a construir experiencias digitales notables. Lista para enfrentar <span className={styles.descriptionColour}> nuevos desafíos </span> y contribuir al mundo del desarrollo. </p>
                 </div>
             </div>
             <div className={styles.boxes}>

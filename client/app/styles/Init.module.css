@@ -92,6 +92,10 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     color: #F2F1ED;
 }
 
+.descriptionColour {
+    color: #E8AA92;
+}
+
 .boxes {
     display: flex;
     justify-content: space-around;

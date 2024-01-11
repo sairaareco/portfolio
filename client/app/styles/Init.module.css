@@ -109,14 +109,13 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 
 .boxDos {
     margin: 1.3rem;
-    background-color: #46849D;
     width: 140px;
     height: 140px;
     border-radius: 12%;
+    background: linear-gradient(to bottom, #EEB894, #F2584C);
 }
 .boxTres {
     margin: 1.3rem;
-    background-color: #46849D;
     width: 140px;
     height: 140px;
     border-radius: 12%;
@@ -128,5 +127,5 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     width: 140px;
     height: 140px;
     border-radius: 12%;
-    background: linear-gradient(to bottom, #F68771, #F66153);
+    background: linear-gradient(to bottom, #E5927C, #F66153);
 }

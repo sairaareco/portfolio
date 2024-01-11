@@ -7,6 +7,7 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 }
 
 .containerGrid {
+    /* margin-bottom: 3rem; */
     display: grid;
     grid-template-rows: 1fr auto;
     grid-template-columns: 1fr 2fr;
@@ -59,7 +60,7 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 }
 
 .fullStack {
-    margin: 0rem 0rem 0rem 2.5rem;
+    margin: 0rem 0rem 0rem 2.7rem;
     color: #F2F1ED;
     padding-top: 7.2rem;
     font-size: 2rem;
@@ -68,7 +69,8 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 .developer {
     margin: 0rem 0rem 1.4rem 2.5rem;
     color: #F2F1ED;
-    font-size: 4rem;
+    font-size: 3.6rem;
+    text-transform: uppercase;
 }
 
 .buttonDownloadCv {
@@ -98,30 +100,33 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 }
 
 .boxUno {
-    margin: 1.5rem;
-    background-color: #46849D;
+    margin: 1.3rem;
     width: 140px;
     height: 140px;
-    border-radius: 17%;
+    border-radius: 12%;
+    background: linear-gradient(to bottom, #E1DFDB, #B8B1AB);
 }
+
 .boxDos {
-    margin: 1.5rem;
+    margin: 1.3rem;
     background-color: #46849D;
     width: 140px;
     height: 140px;
-    border-radius: 17%;
+    border-radius: 12%;
 }
 .boxTres {
-    margin: 1.5rem;
+    margin: 1.3rem;
     background-color: #46849D;
     width: 140px;
     height: 140px;
-    border-radius: 17%;
+    border-radius: 12%;
+    background: linear-gradient(to bottom, #6FA6C1, #326586);
 }
+
 .boxCuatro {
-    margin: 1.5rem;
-    background-color: #46849D;
+    margin: 1.3rem;
     width: 140px;
     height: 140px;
-    border-radius: 17%;
+    border-radius: 12%;
+    background: linear-gradient(to bottom, #F68771, #F66153);
 }

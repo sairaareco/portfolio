@@ -15,14 +15,14 @@ const Init = () => {
                     <h3 className={styles.fullStack}> Full Stack </h3>
                     <h1 className={styles.developer}> Developer </h1>
                     <button className={styles.buttonDownloadCv}> Descarga mi CV </button>
-                    <p className={styles.description}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit iste officiis expedita nam id accusamus molestias eos ut iure rem corporis nulla, quasi, repudiandae error at consectetur eligendi! Eveniet, nesciunt.</p>
+                    <p className={styles.description}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit iste officiis expedita nam id accusamus molestias eos ut.</p>
                 </div>
             </div>
             <div className={styles.boxes}>
-                    <div className={styles.boxUno}> caja 1 </div>
-                    <div className={styles.boxDos}> caja 2 </div>
-                    <div className={styles.boxTres}> caja 3 </div>
-                    <div className={styles.boxCuatro}> caja 4 </div>
+                    <div className={styles.boxUno}>  </div>
+                    <div className={styles.boxDos}>  </div>
+                    <div className={styles.boxTres}>  </div>
+                    <div className={styles.boxCuatro}>  </div>
                 </div>
         </main>
     )

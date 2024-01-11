@@ -67,7 +67,7 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 }
 
 .developer {
-    margin: 0rem 0rem 1.4rem 2.5rem;
+    margin: 0rem 0rem 1rem 2.5rem;
     color: #F2F1ED;
     font-size: 3.6rem;
     text-transform: uppercase;
@@ -79,7 +79,7 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     color: #EBEAE6;
     border: none;
     border-radius: 55px;
-    padding: 0.9rem;
+    padding: 0.8rem;
     background: linear-gradient(to right, #46849D, #7AB5B4, #C5C2BD, #E8AA92, #FB6B5F);
     transition: background 0.3s;
 }

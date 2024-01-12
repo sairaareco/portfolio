@@ -5,12 +5,35 @@ const About = () => {
     return(
         <main className={styles.containerAbout}>
             <h2 className={styles.titleAbout}> Sobre Mi </h2>
-            <div className={styles.boxAbout}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam doloremque sapiente mollitia dolor doloribus officiis rerum sequi laboriosam repellendus ipsam optio minima accusamus labore, totam unde nam soluta nisi.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla quia incidunt officiis? Magni voluptatem reprehenderit facilis dicta nam ipsa dolorem hic, unde beatae perferendis cupiditate assumenda, laborum, nostrum aliquid.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis nulla, ab, nemo blanditiis itaque repudiandae incidunt et recusandae aut ipsum deserunt aliquam repellat enim nam consequatur ipsa non ipsam!</p>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iste laborum ducimus distinctio quam consectetur dolorum a, ut, officia nulla expedita, repellat amet illum suscipit optio cumque sit quo nobis.</p>
-            </div>
+            <section className={styles.containerGrid}>
+                <div className={styles.columnOne}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam doloremque sapiente mollitia dolor doloribus officiis rerum sequi laboriosam repellendus ipsam optio minima accusamus labore, totam unde nam soluta nisi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla quia incidunt officiis? Magni voluptatem reprehenderit facilis dicta nam ipsa dolorem hic, unde beatae perferendis cupiditate assumenda, laborum, nostrum aliquid.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquid cumque officia nihil, placeat recusandae quos neque officiis temporibus quasi expedita voluptas, iste illum iure numquam? Obcaecati minima dolorem enim?</p>
+                </div>
+                <div className={styles.columnTwo}>
+                    <div className={styles.skills}>
+                        <span> 
+                            <p> HTML </p>
+                            <p> CSS </p>
+                            <p> React </p>
+                            <p> Next Js </p>
+                            <p> Redux </p>
+                        </span>
+                        <span> 
+                            <p> JavaScript </p>
+                            <p> TypeScript </p>
+                            <p> Node Js </p>
+                            <p> Express </p>
+                            <p> PostgreSQL </p>
+                        </span>    
+                    </div>  
+                    <div className={styles.skillsOnprogress}>
+                        <p> Java </p>
+                        <p> MySQL </p>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 };

@@ -4,7 +4,6 @@
     background-color: #313131;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -12,10 +11,46 @@
     color: #EEEDE8;
 }
 
-.boxAbout {
-    width: 55rem;
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columnOne {
+    width: 35rem;
     height: 20rem;
     border-radius: 20px;
     background-color: #F8F7F5;
     background: linear-gradient(to left, #E1DFDB, #B8B1AB);
+}
+
+/* .columnTwo {} */
+
+.skills {
+    width: 24rem;
+    height: 12rem;
+    background: linear-gradient(to bottom, #B6CDCF, #549BAB);
+    border-radius: 20px;
+    margin-left: 11rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsOnprogress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 9rem;
+    background: linear-gradient(to bottom, #EF907C, #DA645D);
+    border-radius: 20px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.containerOnProgress {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
 }

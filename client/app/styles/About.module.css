@@ -8,7 +8,7 @@
 }
 
 .containerGrid {
-    margin-top: 4rem;
+    margin-top: 7.3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;

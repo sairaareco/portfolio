@@ -4,7 +4,6 @@ const About = () => {
 
     return(
         <main className={styles.containerAbout} id="about">
-            {/* <h2 className={styles.titleAbout}> Sobre Mi </h2> */}
             <section className={styles.containerGrid}>
                 <div className={styles.columnOne}>
                     <p> ¡Hola! Mi nombre es Saira, soy desarrolladora Full Stack y estudiante de Análisis Universitario en Sistemas.</p>

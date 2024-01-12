@@ -7,50 +7,32 @@
     align-items: center;
 }
 
-.titleAbout {
-    color: #EEEDE8;
-}
-
 .containerGrid {
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
 }
 
 .columnOne {
-    width: 35rem;
-    height: 20rem;
+    width: 37rem;
+    height: 24rem;
     border-radius: 20px;
     background-color: #F8F7F5;
     background: linear-gradient(to left, #E1DFDB, #B8B1AB);
+    padding: 1rem;
+    margin-left: 6rem;
 }
 
-/* .columnTwo {} */
-
 .skills {
-    width: 15rem;
-    height: 15rem;
+    font-size: 17px;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    width: 17rem;
+    height: 16rem;
     background: linear-gradient(to bottom, #B6CDCF, #549BAB);
     border-radius: 20px;
-    margin-left: 18rem;
     display: flex;
     justify-content: space-evenly;
 }
 
-.skillsOnprogress {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 10rem;
-    height: 10rem;
-    background: linear-gradient(to bottom, #EF907C, #DA645D);
-    border-radius: 50%;
-    margin-left: 5rem;
-    margin-bottom: 30rem;
-}
-
-.containerOnProgress {
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
-}

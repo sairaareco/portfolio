@@ -4,6 +4,7 @@ import Init from './components/Init'
 import About from './components/About'
 import Footer from './components/Footer'
 import Proyects from './components/Proyects'
+import Contact from './components/Contact'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Init />
       <About />
       <Proyects />
+      <Contact />
       <Footer />
     </main>
   )

@@ -4,12 +4,14 @@ const About = () => {
 
     return(
         <main className={styles.containerAbout}>
-            <h2 className={styles.titleAbout}> Sobre Mi </h2>
+            {/* <h2 className={styles.titleAbout}> Sobre Mi </h2> */}
             <section className={styles.containerGrid}>
                 <div className={styles.columnOne}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam doloremque sapiente mollitia dolor doloribus officiis rerum sequi laboriosam repellendus ipsam optio minima accusamus labore, totam unde nam soluta nisi.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nulla quia incidunt officiis? Magni voluptatem reprehenderit facilis dicta nam ipsa dolorem hic, unde beatae perferendis cupiditate assumenda, laborum, nostrum aliquid.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquid cumque officia nihil, placeat recusandae quos neque officiis temporibus quasi expedita voluptas, iste illum iure numquam? Obcaecati minima dolorem enim?</p>
+                    <p> ¡Hola! Mi nombre es Saira, soy desarrolladora Full Stack y estudiante de Análisis Universitario en Sistemas.</p>
+                    <p>Antes de sumergirme en el mundo de la programación, me desempeñaba en el ámbito de atención al público. Sin embargo, mi inquietud por aprender y mi deseo de desafiar mis límites me llevaron a explorar el fascinante universo del desarrollo web.</p>
+                    <p>Mi viaje comenzó con los fundamentos: HTML, CSS y JavaScript. A medida que adquiría experiencia, la curiosidad me impulsó a explorar tecnologías más avanzadas. Hoy en día, me siento cómoda trabajando con Node.js, React, Express y Redux, construyendo aplicaciones web robustas y eficientes.</p>
+                    <p>Pero mi enfoque no se limita únicamente al frontend. Actualmente me encuentro ampliando mis habilidades hacia el desarrollo del backend, aprovechando la versatilidad de Java. </p>
+                    <p> Mis habilidades actuales se centran en: </p>
                 </div>
                 <div className={styles.columnTwo}>
                     <div className={styles.skills}>
@@ -19,6 +21,7 @@ const About = () => {
                             <p> React </p>
                             <p> Next Js </p>
                             <p> Redux </p>
+                            <p> Java </p>
                         </span>
                         <span> 
                             <p> JavaScript </p>
@@ -26,12 +29,14 @@ const About = () => {
                             <p> Node Js </p>
                             <p> Express </p>
                             <p> PostgreSQL </p>
+                            <p> MySQL </p>
                         </span>    
                     </div>  
-                    <div className={styles.skillsOnprogress}>
+                    {/* <p> En progreso... </p> */}
+                    {/* <div className={styles.skillsOnprogress}>
                         <p> Java </p>
                         <p> MySQL </p>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </main>

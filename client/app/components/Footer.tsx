@@ -4,7 +4,7 @@ const Footer = () => {
 
     return(
         <main className={styles.containerFooter}>
-            <h4 className={styles.textFooter}> © Sitio creado por Saira Areco. Todos los derechos reservados - 2024 </h4>
+            <h4 className={styles.textFooter}> <span className={styles.name}> Saira Areco </span> © 2024 </h4>
         </main>
     )
 };

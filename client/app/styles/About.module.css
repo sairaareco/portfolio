@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.titleAbout {
+    color: #EEEDE8;
+}
+
 .boxAbout {
     width: 55rem;
     height: 20rem;

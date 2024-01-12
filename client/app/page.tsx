@@ -5,6 +5,8 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Proyects from './components/Proyects'
 import Contact from './components/Contact'
+import Link from 'next/link'
+
 
 
 export default function Home() {

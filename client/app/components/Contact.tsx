@@ -3,7 +3,7 @@ import styles from "../styles/Contact.module.css";
 const Contact = () => {
 
     return(
-        <main>
+        <main id="contact">
             <h2> Contacto </h2>
         </main>
     )

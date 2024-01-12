@@ -1,4 +1,5 @@
 import styles from "../styles/Navbar.module.css";
+import Link from "next/link";
 
 
 const Navbar = () => {
@@ -6,10 +7,18 @@ const Navbar = () => {
     return(
         <main className={styles.containerNav}>
             <ul className={styles.nav}>
-                <li className={styles.itemNav}> Inicio </li>
-                <li className={styles.itemNav}> Sobre Mi </li>
-                <li className={styles.itemNav}> Proyectos </li>
-                <li className={styles.itemNav}> Contacto </li>
+                <Link href="#init" className={styles.itemNav}>
+                    <li> Inicio </li>
+                </Link>
+                <Link href="#about" className={styles.itemNav}>
+                    <li> Sobre Mi </li>
+                </Link>
+                <Link href="#proyects" className={styles.itemNav}>
+                    <li> Proyectos </li>
+                </Link>
+                <Link href="#contact" className={styles.itemNav}>
+                    <li> Contacto </li>
+                </Link>                
             </ul>
         </main>
     )

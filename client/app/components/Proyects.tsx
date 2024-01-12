@@ -4,7 +4,7 @@ const Proyects = () => {
 
 
     return (
-        <main className={styles.containerProyect}>
+        <main className={styles.containerProyect} id="proyects">
             <h2 className={styles.titleProyect}> Proyectos </h2>
         </main>
     )

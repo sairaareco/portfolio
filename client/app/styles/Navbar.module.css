@@ -19,6 +19,7 @@
 }
 
 .itemNav {
+    text-decoration: none;
     list-style-type: none;
     color: #E9E9E8;
 }

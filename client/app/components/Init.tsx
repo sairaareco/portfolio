@@ -3,7 +3,7 @@ import styles from "../styles/Init.module.css";
 const Init = () => {
 
     return(
-        <main className={styles.containerInit}>
+        <main className={styles.containerInit} id="init">
             <div className={styles.containerGrid}>
                 <div className={styles.containerBubbleName}>
                 <div className={styles.bubble}>

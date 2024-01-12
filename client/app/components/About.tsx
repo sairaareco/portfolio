@@ -31,11 +31,6 @@ const About = () => {
                             <p> MySQL </p>
                         </span>    
                     </div>  
-                    {/* <p> En progreso... </p> */}
-                    {/* <div className={styles.skillsOnprogress}>
-                        <p> Java </p>
-                        <p> MySQL </p>
-                    </div> */}
                 </div>
             </section>
         </main>
@@ -46,8 +41,8 @@ export default About;
 
 
 // TAREAS PARA 12/01
-// Componente about resuelto
-// Poner los links en el nav para q funcionen
+// Componente about resuelto - si
+// Poner los links en el nav para q funcionen - si 
 // configurar como seran componentes proyects y skills
 // crear icono para el encabezado de la pagina
 

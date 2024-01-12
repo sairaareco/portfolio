@@ -16,3 +16,16 @@ const About = () => {
 };
 
 export default About;
+
+
+// TAREAS PARA 12/01
+// Componente about resuelto
+// Poner los links en el nav para q funcionen
+// configurar como seran componentes proyects y skills
+// crear icono para el encabezado de la pagina
+
+// EXTRAS:
+// crear pagina de error 404
+// Crear carrousel para las boxes en init
+// creacion del cv para descargar
+// componente contacto (averiguar como enviar un mje q llegue a mi casilla d mail)

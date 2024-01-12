@@ -1,8 +1,9 @@
+import styles from "../styles/Skills.module.css";
 
 const Skills = () => {
 
     return(
-        <main>
+        <main className={styles.containerSkills}>
             <h2> Habilidades </h2>
             <p> javascript </p>
             <p> css </p>

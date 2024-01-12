@@ -1,4 +1,15 @@
 
 .containerAbout {
     background-color: #F8F7F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxAbout {
+    width: 55rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: #313131;
 }

@@ -48,15 +48,19 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 }
 
 .name {
+    font-size: 30px;
     color: #E9E9E8;
     text-align: center;
     margin: 2.6rem 0rem 0rem 0rem;
+    text-transform: uppercase;
 }
 
 .lastname {
+    font-size: 30px;
     color: #E9E9E8;
     text-align: center;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .fullStack {
@@ -108,8 +112,8 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     align-items: center;
     text-align: center;
     margin: 1.3rem;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #E1DFDB, #B8B1AB);
     color: #313131;
@@ -118,10 +122,11 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
 .boxDos {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: center;
     margin: 1.3rem;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #EEB894, #F2584C);
     color: #E9E9E8;
@@ -132,8 +137,8 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     align-items: center;
     text-align: center;
     margin: 1.3rem;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #6FA6C1, #326586);
     color: #E9E9E8;
@@ -145,8 +150,8 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     align-items: center;
     justify-content: center;
     margin: 1.3rem;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #E5927C, #F66153);
     color: #313131;
@@ -157,8 +162,8 @@ backgraound attachhemtne: para dejar fixed un fondo de pantalla
     align-items: center;
     justify-content: center;
     margin: 1.3rem;
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 12%;
     background: linear-gradient(to bottom, #E1DFDB, #B8B1AB);
     color: #E9E9E8;

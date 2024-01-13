@@ -7,12 +7,122 @@
     display: flex;
     justify-content: center;
     font-size: 6rem;
-    margin: 6rem 0rem 0rem 3rem;
+    margin: 10rem 0rem 0rem 3rem;
 }
 
-.developer {
+/* .developer {
     display: flex;
     justify-content: flex-end;
     font-size: 10rem;
     margin: 0rem 3rem 2rem 0rem;
+} */
+
+.developer {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .developer::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px; /* Ajusta la altura según sea necesario */
+    shape-outside: ellipse(50% 100% at 50% 0);
+    background: transparent;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+TITILA UN TEXTO:
+@keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .developer {
+    font-size: 24px; 
+    font-weight: bold; 
+    position: relative;
+    display: inline-block;
+    animation: blink 1s infinite; 
+  }
+
+*/
+
+/*
+.rainbow-text {
+  font-size: 24px; Ajusta el tamaño del texto según tus necesidades 
+  font-weight: bold; Otras propiedades de estilo según tus preferencias
+  background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
 }
+*/

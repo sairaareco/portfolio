@@ -1,14 +1,15 @@
-/* @font-face {
-  font-family: 'Helvetica Now Text';
-  src: url("") format('otf');
+@font-face {
+  font-family: 'HelveticaNowText';
+  src: url('/fonts/1-Helvetica Now Text/Helvetica-Now-Text.woff2') format('woff2'),
+        url('/fonts/1-Helvetica Now Text/Helvetica-Now-Text.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-} */
+}
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Helvetica Now Text'; */
+  font-family: 'HelveticaNowText', Arial, sans-serif;
 }
 
 

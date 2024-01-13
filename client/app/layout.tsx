@@ -6,9 +6,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Saira Areco',
-  icons: {
-    icon:["/favicon.png"],
-  }
 }
 
 export default function RootLayout({

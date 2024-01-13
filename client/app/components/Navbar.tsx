@@ -19,6 +19,7 @@ const Navbar = () => {
                 <Link href="#contact" className={styles.itemNav}>
                     <li> Contacto </li>
                 </Link>                
+                <Link href="#init" className={styles.logotype}> SA </Link>
             </ul>
         </main>
     )

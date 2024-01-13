@@ -1,15 +1,8 @@
 
 .containerFooter {
-    background: linear-gradient(to right, #312F30, #141414);
-    padding: 0.2rem 0rem 0.2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.textFooter {
-    font-size: 14px;
-    text-align: center;
-    color: #E9E9E8;
-}
-
-.name {
-    color: #E8AA92;
-}

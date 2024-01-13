@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+/* @font-face {
+  font-family: 'Helvetica Now Text';
+  src: url("") format('otf');
+  font-weight: normal;
+  font-style: normal;
+} */
 body {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: 'Helvetica Now Text'; */
 }
 
-* {
-  font-family: 'Nunito', sans-serif;
-}
 
 /* 
 body {

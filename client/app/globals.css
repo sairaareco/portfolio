@@ -1,15 +1,10 @@
-@font-face {
-  font-family: 'HelveticaNowText';
-  src: url('/fonts/1-Helvetica Now Text/Helvetica-Now-Text.woff2') format('woff2'),
-        url('/fonts/1-Helvetica Now Text/Helvetica-Now-Text.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'HelveticaNowText', Arial, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 

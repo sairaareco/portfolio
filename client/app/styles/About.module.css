@@ -6,3 +6,23 @@
 .aboutP {
     width: 45rem;
 }
+
+@keyframes onMoveDescription{
+    0% {
+        content: "developer";
+    }
+    20% {
+        content: "student";
+    }
+    50%{
+        content: "programmer";
+    }
+    100%{
+        content: "backend";
+    }
+}
+
+.onMoveDescription {
+    animation: onMoveDescription 0.5s ease-in-out infinite alternate;
+    display: inline-block;
+  }

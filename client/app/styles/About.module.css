@@ -1,28 +1,18 @@
 
+.containerAbout {
+    height: 100vh;
+}
 .titleAbout {
-    align-items: center;
+    padding-top: 7rem;
+    margin-left: 2rem;
+    font-size: 15px;
 }
-
 .aboutP {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     width: 45rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
 }
 
-@keyframes onMoveDescription{
-    0% {
-        content: "developer";
-    }
-    20% {
-        content: "student";
-    }
-    50%{
-        content: "programmer";
-    }
-    100%{
-        content: "backend";
-    }
-}
-
-.onMoveDescription {
-    animation: onMoveDescription 0.5s ease-in-out infinite alternate;
-    display: inline-block;
-  }

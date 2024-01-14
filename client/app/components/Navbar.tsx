@@ -27,7 +27,7 @@ const Navbar = () => {
         <main className={styles.main}>
             <section className={scrolled ? styles.containerNavTrue : styles.containerNavFalse}>
             <ul className={styles.nav}>
-                <Link href="#init" className={styles.itemNav}>
+                <Link href="/" className={styles.itemNav}>
                     <li> Inicio </li>
                 </Link>
                 <Link href="#about" className={styles.itemNav}>

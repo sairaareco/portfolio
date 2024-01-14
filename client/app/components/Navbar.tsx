@@ -1,11 +1,33 @@
+'use client';
 import styles from "../styles/Navbar.module.css";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+// import {  } from "react";
+
 
 
 const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(()=>{
+        const handleScroll = () => {
+            if (window.scrollY > 50 && !scrolled) {
+                setScrolled(true);
+                console.log("ES TRUE");
+            } else if (window.scrollY <= 50 && scrolled) {
+                setScrolled(false);
+                console.log("ES FALSE !");
+            }
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [scrolled]);
 
     return(
-        <main className={styles.containerNav}>
+        <main className={styles.main}>
+            <section className={scrolled ? styles.containerNavTrue : styles.containerNavFalse}>
             <ul className={styles.nav}>
                 <Link href="#init" className={styles.itemNav}>
                     <li> Inicio </li>
@@ -21,6 +43,7 @@ const Navbar = () => {
                 </Link>                
                 <Link href="#init" className={styles.logotype}> SA </Link>
             </ul>
+            </section>
         </main>
     )
 };

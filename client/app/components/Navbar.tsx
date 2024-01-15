@@ -38,8 +38,8 @@ const Navbar = () => {
                 </Link>
                 <Link href="#contact" className={styles.itemNav}>
                     <li> Contacto </li>
-                </Link>                
-                <Link href="#init" className={styles.logotype}> SA </Link>
+                </Link>     
+                <Link href="/" className={styles.logotype}> Saira Areco </Link>           
             </ul>
             </section>
         </main>
@@ -47,3 +47,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

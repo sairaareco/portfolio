@@ -1,6 +1,7 @@
 
 .containerAbout {
     height: 100vh;
+    padding-top: 6rem;
 }
 .titleAbout {
     padding: 10px;
@@ -72,4 +73,5 @@
 .p {
     width: 40rem;
     z-index: 3;
+    margin: 10px;
 }

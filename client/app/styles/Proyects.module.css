@@ -1,8 +1,8 @@
 
 .containerProyect {
     height: 100vh;
+    padding-top: 6rem;
 }
-
 .titleProyect {
     padding: 10px;
     display: inline-block;

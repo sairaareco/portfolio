@@ -18,8 +18,10 @@ const About = () => {
           </div>
           {/* <h1 className={styles.onMoveDescription}> developer ... </h1> */}
           <div className={styles.aboutP}>
-            <p className={styles.p}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis praesentium eos repellat aspernatur quibusdam ut vero adipisci harum labore amet quis, ullam eligendi excepturi dolorum aliquam odit? Iure, perferendis.</p>
-            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corporis sapiente harum cum animi distinctio delectus, fugit earum! Odio, possimus magni adipisci magnam ad fugiat eum quis dolores repudiandae ut.</p>
+            <p className={styles.p}> ¡Hola! Mi nombre es Saira. Soy una desarrolladora Full Stack nacida en Argentina. </p>
+            <p className={styles.p}> Actualmente, me encuentro inmersa en la Tecnicatura en Análisis de Sistemas, donde estoy consolidando las bases de mis conocimientos teóricos y prácticos. </p>
+            <p className={styles.p}> Además, mi enfoque actual es fortalecer mis habilidades en el backend, centrándome en el lenguaje Java. </p>
+            <p className={styles.p}>Mi compromiso es continuar perfeccionando mi perfil tecnológico, explorando nuevas tecnologías y contribuyendo al desarrollo de soluciones. </p>
           </div>
         </main>
     )
@@ -28,6 +30,11 @@ const About = () => {
 export default About;
 
 
-// Para lograr el efecto deseado en el recuadro de "aboutP" debe hacerse un
-// useEffect y aplicar un setTimeout. primero haciendo useState.. 
-// Luego aplicar el recuadro que se desee. 
+
+/*
+  <p className={styles.p}> ¡Hola! Mi nombre es Saira. Soy una desarrolladora Full Stack nacida en Argentina. </p>
+            <p className={styles.p}> Actualmente, me encuentro inmersa en la Tecnicatura en Análisis de Sistemas, donde estoy consolidando las bases de mis conocimientos teóricos y prácticos. </p>
+            <p className={styles.p}> Mi motivación para embarcarme en esta carrera radica en mi compromiso con el establecimiento de sólidas bases algorítmicas y en comprender a fondo los principios de la ciencia de la computación. </p>
+            <p className={styles.p}> Además, mi enfoque actual es fortalecer mis habilidades en el backend, centrándome en el lenguaje Java. Esta experiencia no solo está ampliando mi conocimiento, sino que también me permite enfrentar desafíos del mundo real. </p>
+            <p className={styles.p}>Mi compromiso es continuar perfeccionando mi perfil tecnológico, explorando nuevas tecnologías y contribuyendo al desarrollo de soluciones. </p>
+*/

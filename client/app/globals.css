@@ -5,11 +5,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'IBM Plex Sans', sans-serif;
+  background-color: whitesmoke;
 }
 
 
 /* 
-body {
+bo
   margin: 0;
   height: 100vh;
   display: flex;

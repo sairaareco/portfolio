@@ -7,7 +7,9 @@ const About = () => {
 
     return(
         <main className={styles.containerAbout} id="about">
-          <h2 className={styles.titleAbout}> SOBRE MÍ </h2>
+          <div className={styles.gradientAbout}>
+            <h2 className={styles.titleAbout}> SOBRE MÍ </h2>
+          </div>
           {/* <h1 className={styles.onMoveDescription}> developer ... </h1> */}
           <div className={styles.aboutP}>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex debitis praesentium eos repellat aspernatur quibusdam ut vero adipisci harum labore amet quis, ullam eligendi excepturi dolorum aliquam odit? Iure, perferendis.</p>

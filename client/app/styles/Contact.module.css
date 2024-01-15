@@ -1,3 +1,15 @@
 .containerContact {
     height: 100vh;
 }
+.titleContact {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 12px;
+    border-style: solid;
+    background: linear-gradient(45deg, #d7d2cc, #304352);
+    border-image-slice: 1;
+    border: none;
+    border-radius: 20px;
+    color: #2b2b2b;
+}

@@ -13,16 +13,63 @@
     border: none;
     border-radius: 20px;
     color: #2b2b2b;
-    /* border-width: 1.5px; 
-    border-image: linear-gradient(45deg, #d7d2cc, #304352) 1; */
 }
-
 .aboutP {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    height: 250px;
+    width: 200px;
+    background-color: #101010;
+    background-color: whitesmoke;;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #0000008c;
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    height: 20rem; 
     width: 45rem;
-    margin-top: 4rem;
-    margin-left: 4rem;
+    z-index: 1;
+}
+.aboutP::before {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(#d7d2cc 20deg, #304352 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+
+
+    height: 20rem; 
+    width: 45rem; 
+}
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+.aboutP::after {
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 190px;
+    background-color: #101010;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+
+
+    height: 19.3rem; 
+    width: 44.3rem; 
 }
 
+
+.p {
+    width: 40rem;
+    z-index: 3;
+}

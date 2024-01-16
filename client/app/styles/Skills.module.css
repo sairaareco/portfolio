@@ -14,20 +14,49 @@
     border: none;
     border-radius: 20px;
     color: #2b2b2b;
+    margin-bottom: 1rem;
 }
-.containerLogotypes {
+.boxTool {
+    display: inline-block;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0.7rem;
     display: flex;
-}
-.sectionSubtitle {
-    color: #2b2b2b;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-.imagesLogotypes {
-    display: flex;
-    padding: 2rem;
-    gap: 2rem;
+    align-items: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 120px;
+    height: 65px;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionOne {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionTwo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionThree {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nameTool {
+    margin-left: 8px;
+}
 
 

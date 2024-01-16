@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link href="#contact" className={styles.itemNav}>
                     <li> Contacto </li>
                 </Link>     
-                <Link href="/" className={styles.logotype}> Saira Areco </Link>        
+                <Link href="/" className={styles.logotype}> Saira Areco </Link>      
             </ul>
             </section>
         </main>

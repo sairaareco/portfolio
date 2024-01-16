@@ -18,17 +18,15 @@
     display: flex;
     width: 70rem;
     height: 4rem;
-    background-color: rgba(37, 35, 35, 0.6);
+    background-color: rgba(37, 35, 35, 0.5);
     backdrop-filter: blur(4px);
     border-radius: 50px;
     z-index: 10;
 }
-
 .nav {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-left: 1.4rem;
 }
 .itemNav {
     list-style-type: none;
@@ -48,11 +46,31 @@
   font-size: 25px;
   font-weight: 900;
   text-decoration: none;
-  margin-left: 3rem;
+  margin-left: 4.5rem;
 } 
 
 
 
+.logotype {
+		background: linear-gradient(to right,#d7d2cc 10%, #304352 50%, #2b2b2b 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 2s linear infinite 3s;
+		display: inline-block;
+    font-family: 'BrittanySignature', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 4.5rem;
+}
 
-
-
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

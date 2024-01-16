@@ -6,9 +6,17 @@
     padding: 0.7rem;
 }
 .name {
+    font-family: 'BrittanySignature', sans-serif;
     color: #304352;
+    font-size: 16px;
 }
 .textFooter {
+    font-size: 13px;
     color: #2b2b2b;
 }
 
+
+
+/*
+Ambos enfoques, sr-only y aria-hidden="true", son estrategias para abordar diferentes aspectos de la accesibilidad web y se utilizan para garantizar que las páginas web sean más accesibles para personas con discapacidades, especialmente aquellas que utilizan tecnologías de asistencia como lectores de pantalla.
+*/

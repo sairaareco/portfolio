@@ -24,6 +24,32 @@
 } 
 
 
+.developer {
+  background: linear-gradient(to right,#d7d2cc 10%, #304352 50%, #2b2b2b 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite 3s;
+  display: inline-block;
+
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10rem;
+  margin: 0rem 3rem 1rem 0rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
 
   
 

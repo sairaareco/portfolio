@@ -50,7 +50,7 @@
 } 
 
 
-
+/*
 .logotype {
 		background: linear-gradient(to right,#d7d2cc 10%, #304352 50%, #2b2b2b 60%);
 		background-size: auto auto;
@@ -62,6 +62,9 @@
 		-webkit-text-fill-color: transparent;
 		animation: textclip 2s linear infinite 3s;
 		display: inline-block;
+
+
+
     font-family: 'BrittanySignature', sans-serif;
     font-size: 25px;
     font-weight: 900;
@@ -74,3 +77,4 @@
 		background-position: 200% center;
 	}
 }
+*/

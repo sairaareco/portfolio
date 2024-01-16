@@ -23,10 +23,10 @@ const About = () => {
               <button className={styles.buttonDownload}> Descarga mi CV </button>
               <div className={styles.socialMedia}>
                 <a href="https://github.com/sairaareco" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/github.svg" alt="logo de github" width={25} className={styles.imageGithub}/>
+                  <img src="/images/github.svg" alt="logo de github" width={23} className={styles.imageGithub}/>
                 </a>
                 <a href="https://www.linkedin.com/in/saira-areco/" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/linkedin.svg" alt="logo de linkedin" width={25} className={styles.imageLinkedin}/>
+                  <img src="/images/linkedin.svg" alt="logo de linkedin" width={23} className={styles.imageLinkedin}/>
                 </a>       
               </div>
             </div>

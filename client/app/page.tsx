@@ -5,7 +5,7 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Proyects from './components/Proyects'
 import Contact from './components/Contact'
-import Link from 'next/link'
+import Skills from './components/Skills'
 
 
 
@@ -15,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Init />
       <About />
+      <Skills />
       <Proyects />
       <Contact />
       <Footer />

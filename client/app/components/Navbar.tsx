@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 
-const Navbar = () => {
-    const [scrolled, setScrolled] = useState(false);
+const Navbar: React.FC = () => {
+    const [scrolled, setScrolled] = useState<boolean>(false);
 
     useEffect(()=>{
         const handleScroll = () => {

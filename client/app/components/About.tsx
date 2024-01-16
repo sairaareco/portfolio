@@ -1,6 +1,5 @@
 "use client";
 import styles from "../styles/About.module.css";
-import { useEffect, useState } from "react";
 
 const About = () => {
 

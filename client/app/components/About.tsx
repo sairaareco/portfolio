@@ -21,7 +21,7 @@ const About = () => {
             <p className={styles.p}> ¡Hola! Mi nombre es Saira. Soy una desarrolladora Full Stack nacida en Argentina. </p>
             <p className={styles.p}> Actualmente, me encuentro inmersa en la Tecnicatura en Análisis de Sistemas, donde estoy consolidando las bases de mis conocimientos teóricos y prácticos. </p>
             <p className={styles.p}> Además, mi enfoque actual es fortalecer mis habilidades en el backend, centrándome en el lenguaje Java. </p>
-            <p className={styles.p}>Mi compromiso es continuar perfeccionando mi perfil tecnológico, explorando nuevas tecnologías y contribuyendo al desarrollo de soluciones. </p>
+            <p className={styles.p}>Mi compromiso es continuar perfeccionando mi perfil tecnológico, explorando nuevas tecnologías y contribuyendo al desarrollo de soluciones eficientes e innovadoras. </p>
           </div>
         </main>
     )

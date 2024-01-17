@@ -5,6 +5,8 @@ const Contact = () => {
     return(
         <main id="contact" className={styles.containerContact}>
             <h2 className={styles.titleContact}> CONTACTO </h2>
+
+            <form action=""></form>
         </main>
     )
 };

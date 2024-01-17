@@ -1,7 +1,8 @@
 
 .containerSkills {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 6rem;
+    height: 90vh;
 }
 .titleSkills {
     padding: 10px;

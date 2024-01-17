@@ -10,20 +10,28 @@ const Contact = () => {
                 <div className={styles.personalInfoContainer}>          
                     <div className={styles.inputGroup}>
                         <label htmlFor="name" className={styles.label}> NOMBRE </label>
-                        <input type="text" id="name"/>
+                        <input type="text" 
+                        id="name" 
+                        className={styles.input}/>
                     </div>
                     <div className={styles.inputGroup}>
                         <label htmlFor="email" className={styles.label}> EMAIL </label>
-                        <input type="text" id="email"/>
+                        <input type="text" 
+                        id="email" 
+                        className={styles.input}/>
                         </div>
                 </div>
 
                 <div className={styles.messageContainer}>
                     <label htmlFor="subject" className={styles.label}> ASUNTO </label>
-                    <input type="text" id="subject"/>
+                    <input type="text" 
+                    id="subject" 
+                    className={styles.input}/>
 
                     <label htmlFor="message" className={styles.label}> MENSAJE </label>
-                    <input type="text" id="message"/>
+                    <input type="text" 
+                    id="message" 
+                    className={styles.input}/>
                 </div>
             </form>
         </main>

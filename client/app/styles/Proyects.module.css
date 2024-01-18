@@ -15,3 +15,9 @@
     border-radius: 20px;
     color: #2b2b2b;
 }
+.descriptionEducApp {
+    border: 1px solid salmon;
+    width: 35rem;
+    height: 25rem;
+    font-size: 14px;
+}

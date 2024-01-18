@@ -27,12 +27,11 @@ const Contact = () => {
                         <input type="text" 
                         id="subject" 
                         className={styles.input}/>
-                    
+
                         <label htmlFor="message" className={styles.labelMessage}> MENSAJE </label>
                         <input type="text" 
                         id="message" 
-                        className={styles.inputMessage}/>
-                        
+                        className={styles.inputMessage}/>      
                     </div>          
                 </section>
                 <button className={styles.buttonSubmit}> ENVIAR </button>

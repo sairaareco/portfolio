@@ -1,22 +1,26 @@
 
 .containerFooter {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.textFooter {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding: 0.7rem;
+    margin-right: 8rem;
+    font-size: 13px;
+    color: #2b2b2b;
 }
 .name {
     font-family: 'BrittanySignature', sans-serif;
     color: #304352;
-    font-size: 16px;
+    font-size: 17px;
+    margin-right: 0.4rem;
 }
-.textFooter {
-    font-size: 13px;
-    color: #2b2b2b;
+.socialMediaFooter {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+    gap: 1rem;
 }
-
-
-
-/*
-Ambos enfoques, sr-only y aria-hidden="true", son estrategias para abordar diferentes aspectos de la accesibilidad web y se utilizan para garantizar que las páginas web sean más accesibles para personas con discapacidades, especialmente aquellas que utilizan tecnologías de asistencia como lectores de pantalla.
-*/

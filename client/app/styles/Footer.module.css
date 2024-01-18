@@ -20,7 +20,7 @@
 .socialMediaFooter {
     display: flex;
     justify-content: flex-end;
-    margin-right: 1rem;
+    margin-right:3rem;
     margin-top: 1.3rem;
     gap: 1rem;
 }

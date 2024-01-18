@@ -29,9 +29,14 @@ const Contact = () => {
                         className={styles.input}/>
 
                         <label htmlFor="message" className={styles.labelMessage}> MENSAJE </label>
-                        <input type="text" 
+                        <textarea name="message" 
                         id="message" 
-                        className={styles.inputMessage}/>      
+                        cols={30} 
+                        rows={10} 
+                        className={styles.textarea}></textarea>
+                        {/* <input type="text" 
+                        id="message" 
+                        className={styles.inputMessage}/>       */}
                     </div>          
                 </section>
                 <button className={styles.buttonSubmit}> ENVIAR </button>
